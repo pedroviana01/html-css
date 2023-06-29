@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+       
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+    <p>maneira limitada</p>
+    <audio src="media/kisstheheavens-asher fulero.mp3" controls autoplay></audio>
+    <br>
+
+    <audio preload="auto" autoplay controls loop>
+      <source src="media/kisstheheavens-asher fulero.mp3" type="audio/mpeg">
+
+    </audio>
+<br>
+    <audio src="media/lamentoftheancients-asherfulero.mp3" controls autoplay loop></audio>
+
+    <p>Se não apareceu nada acima <a href="media/kisstheheavens-asher fulero.mp3">click aqui para baixar</a></p>
+    <a href="media/lamentoftheancients-asherfulero.mp3">segundo audio </a>
+    
+    
+</body>
+</html>
